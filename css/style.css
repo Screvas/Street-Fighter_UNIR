@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Street';
-    src: url(/font/street.otf) format('truetype');
+    src: url(font/street.otf) format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -17,7 +17,7 @@
 
 /* le background */
 .index-bg {
-    background-image: url(/img/fondo2.jpg);
+    background-image: url(img/fondo2.jpg);
     background-size: cover;
 }
 
@@ -39,7 +39,7 @@ table {
 }
 
 table .cabeza {
-    background-image: url(/img/fondocabecera.jpg);
+    background-image: url(img/fondocabecera.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     font-size: 40px;
