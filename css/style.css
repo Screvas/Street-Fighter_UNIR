@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Street';
+    src: url(/font/street.otf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --Street: 'Street';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    size: 52px;
+    color: white;
+    text-align: center;
+}
+
+/* le background */
+.index-bg {
+    background-image: url(/img/fondo2.jpg);
+    background-size: cover;
+}
+
+h1 {
+    font-size: 46px;
+    font-family: var(--Street);
+    color: crimson;
+    text-align: center;
+}
+
+/* Formato tabla */
+table {
+    width: 600px;
+    height: 800px;
+    background-color: black;
+    border-radius: 10px;
+    margin: auto;
+    border: 10px outset rgb(237, 175, 5);
+}
+
+table .cabeza {
+    background-image: url(/img/fondocabecera.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-size: 40px;
+    color: whitesmoke;
+    opacity: 0.5;
+}
+
+table td,
+tr {
+    width: 40px;
+    height: 45px;
+    font-family: var(--Street);
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: darkorange;
+}
+
+h2 {
+    font-size: 28px;
+    font-family: var(--Street);
+    color: crimson;
+    text-align: center;
+}
+
+/* Formulario */
+form {
+    width: 600px;
+    height: 1100px;
+    border: 10px outset rgb(237, 175, 5);
+    color: white;
+    border-radius: 10px;
+    text-align: left;
+    margin: auto;
+    font-size: 16px;
+    font-family: verdana;
+    background-color: black;
+}
+
+legend {
+    font-size: 14px;
+    font-family: var(--Street);
+    color: rgb(237, 175, 5)
+}
+
+.boton {
+    width: 200px;
+    height: 50px;
+    border: 1px solid crimson;
+    background-color: crimson;
+    font-family: var(--Street);
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 65px;
+    margin-bottom: 10px;
+}
+
+.lockF {
+    display: block;
+    margin: 0.8rem 0;
+}
+
+textarea {
+    width: 560px;
+    height: 180px;
+}
+
+fieldset {
+    margin-bottom: 0.8rem;
+}
